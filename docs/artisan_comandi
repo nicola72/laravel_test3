@@ -1,0 +1,2 @@
+Creare un crontroller:
+php artisan make:controller TaskController
