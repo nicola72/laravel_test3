@@ -19,7 +19,7 @@ Route::get('welcome/{locale}', function ($locale) {
     App::setLocale($locale);
 });
 
-Route::get('about', function () {
+/*Route::get('about', function () {
     return view('about');
 });
 
@@ -68,7 +68,7 @@ Route::get('posts/{id}/{slug}', function ($id, $slug) {
 // Defining a route with name in routes/web.php:
 Route::get('members/{id}', 'MembersController@show')->name('members.show');
 // Link the route in a view using the route() helper
-/* <a href="<?php echo route('members.show', ['id' => 14]); ?>"> */
+<a href="<?php echo route('members.show', ['id' => 14]); ?>">
 
 Route::group([], function () {
     Route::get('hello', function () {
@@ -125,4 +125,4 @@ Route::get('/', 'TasksController@home');
 
 Route::get('tasks/create', 'TasksController@create');
 
-Route::post('tasks', 'TasksController@store');
+Route::post('tasks', 'TasksController@store');*/
