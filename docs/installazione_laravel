@@ -15,3 +15,7 @@ Commit del progetto.
 Aggiungo GITHUB:
 devo aver creato prima il repository su Github con lo stesso nome del progetto.
 Tasto destro sul progetto Git-Push e inserisco l'url del repository
+
+Genero la key per l'applicazione
+php artisan key:generate
+php artisan config:cache
