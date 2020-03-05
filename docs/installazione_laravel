@@ -19,3 +19,5 @@ Tasto destro sul progetto Git-Push e inserisco l'url del repository
 Genero la key per l'applicazione
 php artisan key:generate
 php artisan config:cache
+
+Attenzione!! caricare il file .env nel server
